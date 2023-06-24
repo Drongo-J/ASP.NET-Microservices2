@@ -1,0 +1,44 @@
+﻿<Window x:Class="UIApp.SignIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UIApp"
+        mc:Ignorable="d"
+        Title="Sign In | Sign Up" Height="450" Width="800">
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="0" Background="LightCoral">
+            <StackPanel>
+                <TextBlock FontSize="30">Sign In</TextBlock>
+
+                <TextBlock FontSize="20">Username</TextBlock>
+                <TextBox x:Name="username_signIn"></TextBox>
+                <TextBlock FontSize="20">Password</TextBlock>
+                <TextBox x:Name="password_signIn"></TextBox>
+
+                <Button Name="SignInn" Margin="20" Click="SignIn_Click">Sign In</Button>
+            </StackPanel>
+        </Grid>
+        
+        <Grid Grid.Column="1" Background="LightCyan">
+            <StackPanel>
+
+                <TextBlock FontSize="30">Sign Up</TextBlock>
+
+                <TextBlock FontSize="20">Username</TextBlock>
+                <TextBox x:Name="username_signUp"></TextBox>
+                <TextBlock FontSize="20">Password</TextBlock>
+                <TextBox x:Name="password_signUp"></TextBox>
+
+                <Button Name="SignUp" Margin="20" Click="SignUp_Click">Sign Up</Button>
+            </StackPanel>
+        </Grid>
+        
+    </Grid>
+</Window>

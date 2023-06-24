@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.APIGateway", "Services.APIGateway\Services.APIGateway.csproj", "{759DD468-8075-4284-8DF5-D5CC8AAF5817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.APIGateway", "Services.APIGateway\Services.APIGateway.csproj", "{759DD468-8075-4284-8DF5-D5CC8AAF5817}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{9A46F9CB-7C14-429E-B8B2-646B303C6712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API", "Contact.API\Contact.API.csproj", "{2F36E961-4D33-4E23-8DB5-90CA0A4B79B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API", "Contact.API\Contact.API.csproj", "{2F36E961-4D33-4E23-8DB5-90CA0A4B79B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Infrastructure", "Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{1C538D1A-B4AE-4240-B4EB-8D1329FD1C8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Infrastructure", "Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{1C538D1A-B4AE-4240-B4EB-8D1329FD1C8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Models", "Contact.Models\Contact.API.Models.csproj", "{4AA80FE4-7D51-43D1-AF76-77A6B9F2184E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Models", "Contact.Models\Contact.API.Models.csproj", "{4AA80FE4-7D51-43D1-AF76-77A6B9F2184E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Services", "Contact.API.Services\Contact.API.Services.csproj", "{356B6D9E-3BD3-449B-B32E-ABA592709B19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Services", "Contact.API.Services\Contact.API.Services.csproj", "{356B6D9E-3BD3-449B-B32E-ABA592709B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIApp", "UIApp\UIApp.csproj", "{FC237CAE-0D0A-4E44-8D04-89A34A8E7E7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIApp", "UIApp\UIApp.csproj", "{FC237CAE-0D0A-4E44-8D04-89A34A8E7E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{EF31C31F-3725-4079-88A2-0B693E00B4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.API", "Authentication.API\Authentication.API.csproj", "{F30D59E0-CB31-4D21-9E57-16736695B6F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{FC237CAE-0D0A-4E44-8D04-89A34A8E7E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC237CAE-0D0A-4E44-8D04-89A34A8E7E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC237CAE-0D0A-4E44-8D04-89A34A8E7E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30D59E0-CB31-4D21-9E57-16736695B6F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30D59E0-CB31-4D21-9E57-16736695B6F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30D59E0-CB31-4D21-9E57-16736695B6F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30D59E0-CB31-4D21-9E57-16736695B6F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{1C538D1A-B4AE-4240-B4EB-8D1329FD1C8B} = {9A46F9CB-7C14-429E-B8B2-646B303C6712}
 		{4AA80FE4-7D51-43D1-AF76-77A6B9F2184E} = {9A46F9CB-7C14-429E-B8B2-646B303C6712}
 		{356B6D9E-3BD3-449B-B32E-ABA592709B19} = {9A46F9CB-7C14-429E-B8B2-646B303C6712}
+		{F30D59E0-CB31-4D21-9E57-16736695B6F3} = {EF31C31F-3725-4079-88A2-0B693E00B4E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8A30D74-0E0E-4CE5-80A4-D7AFD642F7C1}
